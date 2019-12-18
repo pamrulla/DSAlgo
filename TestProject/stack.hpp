@@ -8,7 +8,7 @@ namespace DSAlgoTest{
 	namespace list {
 		class stack {
 		private:
-			DSAlgo::list<int> _list;
+			DSAlgo::list<> _list;
 
 		public:
 			stack() : _list() {}

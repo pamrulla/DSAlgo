@@ -2,7 +2,7 @@
 #include <iostream>
 
 namespace DSAlgo {
-	template<typename T>
+	template<typename T = int>
 	class ListElement {
 	private:
 		ListElement* next;
@@ -16,7 +16,7 @@ namespace DSAlgo {
 		void setValue(const T& value) { data = value; }
 	};
 
-	template<typename T>
+	template<typename T = int>
 	class list {
 	private:
 		ListElement<T>* head;

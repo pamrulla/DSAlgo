@@ -3,7 +3,7 @@
 
 class listProblemsTests : public testing::Test {
 public:
-	DSAlgo::list<int> _list;
+	DSAlgo::list<> _list;
 };
 
 TEST_F(listProblemsTests, mth_to_last_element) {
