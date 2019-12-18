@@ -13,10 +13,39 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\list">
+      <UniqueIdentifier>{e049e9bf-935c-43aa-bded-8ad4a3b7de3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{32080c9e-1c0c-47cc-87c7-0c9d3237a3f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\list">
+      <UniqueIdentifier>{802cb6f8-3a21-483a-8b37-567b841695fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\library">
+      <UniqueIdentifier>{c75159f0-a32e-41e8-9caf-21d94ae6f6ea}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="stack.cpp">
+      <Filter>Source Files\list</Filter>
+    </ClCompile>
+    <ClCompile Include="stackTest.cpp">
+      <Filter>Tests\list</Filter>
+    </ClCompile>
+    <ClCompile Include="list_problemsTest.cpp">
+      <Filter>Tests\list</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stack.hpp">
+      <Filter>Source Files\list</Filter>
+    </ClInclude>
+    <ClInclude Include="list.hpp">
+      <Filter>Source Files\library</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
