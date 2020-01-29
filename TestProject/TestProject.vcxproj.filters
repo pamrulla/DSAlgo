@@ -25,6 +25,15 @@
     <Filter Include="Source Files\library">
       <UniqueIdentifier>{c75159f0-a32e-41e8-9caf-21d94ae6f6ea}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Tests\bst">
+      <UniqueIdentifier>{c13b5cd1-a4e1-40cc-b669-b61f4b70b04a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\CrackingCodingInterview">
+      <UniqueIdentifier>{4206b237-c881-4ca4-9010-12899c0f62ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\CrackingCodingInterview">
+      <UniqueIdentifier>{52033d34-cc9b-4089-8635-bd474eb5c67b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -39,6 +48,15 @@
     <ClCompile Include="list_problemsTest.cpp">
       <Filter>Tests\list</Filter>
     </ClCompile>
+    <ClCompile Include="bstTest.cpp">
+      <Filter>Tests\bst</Filter>
+    </ClCompile>
+    <ClCompile Include="ArraysAndStrings.cpp">
+      <Filter>Source Files\CrackingCodingInterview</Filter>
+    </ClCompile>
+    <ClCompile Include="ArraysAndStringsTests.cpp">
+      <Filter>Tests\CrackingCodingInterview</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="stack.hpp">
@@ -46,6 +64,12 @@
     </ClInclude>
     <ClInclude Include="list.hpp">
       <Filter>Source Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="bst.hpp">
+      <Filter>Source Files\library</Filter>
+    </ClInclude>
+    <ClInclude Include="ArraysAndStrings.h">
+      <Filter>Source Files\CrackingCodingInterview</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

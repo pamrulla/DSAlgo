@@ -133,12 +133,17 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="ArraysAndStringsTests.cpp" />
+    <ClCompile Include="bstTest.cpp" />
     <ClCompile Include="list_problemsTest.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ArraysAndStrings.cpp" />
     <ClCompile Include="stack.cpp" />
     <ClCompile Include="stackTest.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ArraysAndStrings.h" />
+    <ClInclude Include="bst.hpp" />
     <ClInclude Include="list.hpp" />
     <ClInclude Include="stack.hpp" />
   </ItemGroup>
